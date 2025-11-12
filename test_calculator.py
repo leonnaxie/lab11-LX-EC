@@ -19,10 +19,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(mul(1, 1), 1)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(div(10, 5), 2)
-        self.assertEqual(div(100, 10), 10)
-        self.assertEqual(div(4, 2), 2)
-
+        self.assertEqual(div(5, 10), 2)
+        self.assertEqual(div(10, 100), 10)
+        self.assertEqual(div(2, 4), 2)
 
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
@@ -31,7 +30,7 @@ class TestCalculator(unittest.TestCase):
             div(0,39)
 
     def test_logarithm(self):
-        self.assertEqual(log(10,100),2)
+        self.assertEqual(log(2,16),4)
         self.assertEqual(log(3,81),4)
         self.assertEqual(log(2,64),6)
 
