@@ -19,16 +19,16 @@ def mul(a,b):
 
 def div(a,b):
     if a == 0:
-        raise ZeroDivisionError
+        raise ZeroDivisionError()
 
     return b/a
 
 def log(a,b):
-    if a <= 0:
-        raise ValueError
+    if a <= 0 or a == 1:
+        raise ValueError()
 
     if b <= 0 or b == 1:
-        raise ValueError
+        raise ValueError()
 
     return math.log(a,b)
 
