@@ -1,3 +1,7 @@
+# https://github.com/leonnaxie/lab11-LX-EC
+# Partner 1: Leonna Xie
+# Partner 2: Emily Chen
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
