@@ -1,3 +1,7 @@
+# https://github.com/leonnaxie/lab11-LX-EC
+# Partner 1: Leonna Xie
+# Partner 2: Emily Chen
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -17,7 +21,7 @@ def hypotenuse(a, b):
 def add(a, b): 
     return a + b
 
-def sub(a,b):
+def subtract(a,b):
     return a - b
 
 def mul(a,b):
@@ -29,7 +33,8 @@ def div(a,b):
 
     return b/a
 
-def log(a,b):
+
+def logarithm(a,b):
     if a <= 0 or a == 1:
         raise ValueError()
 

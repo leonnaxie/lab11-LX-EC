@@ -1,3 +1,7 @@
+# https://github.com/leonnaxie/lab11-LX-EC
+# Partner 1: Leonna Xie
+# Partner 2: Emily Chen
+
 import unittest
 from calculator import *
 
