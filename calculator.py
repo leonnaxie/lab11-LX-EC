@@ -36,7 +36,7 @@ def log(a,b):
     if b <= 0 or b == 1:
         raise ValueError()
 
-    return math.log(a,b)
+    return math.log(b,a)
 
 def exp(a,b):
     return a ** b
